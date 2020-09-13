@@ -2,9 +2,10 @@
   "name": "whatsapp-clone-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/EBEN4REAL/whatsapp-clone-backend/issues"
   },
-  "homepage": "https://github.com/EBEN4REAL/whatsapp-clone-backend#readme"
+  "homepage": "https://github.com/EBEN4REAL/whatsapp-clone-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5"
+  }
 }
